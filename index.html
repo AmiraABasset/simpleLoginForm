@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-3"></div>
+
+			<div class="col-xs-12 col-sm-12 col-md-6">
+				<div class="panel panel-default">
+					<div class="panel panel-body">
+						
+						<form id="login-form">
+
+							<div id="header-div">
+								<h2>LOGIN</h2>
+								<span id="login-success"></span>
+							</div>
+
+							<div id="user-name-div" class="form-group">
+								<div class="col-xs-12 col-sm-12 col-md-7">
+									<input type="text" placeholder="Username" name="username" class="form-control" id="username">
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-5">
+									<span id="username-error"></span>
+								</div>
+							</div>
+
+							<div id="email-div" class="form-group">
+								<div class="col-xs-12 col-sm-12 col-md-7">
+									<input type="email" placeholder="Email" name="email" class="form-control" id="email">
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-5">
+									<span id="email-error"></span>
+								</div>
+							</div>
+
+							<div id="password-div" class="form-group">
+								<div class="col-xs-12 col-sm-12 col-md-7">
+									<input type="password" placeholder="Password" name="password" class="form-control" id="password">
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-5">
+									<span id="password-error"></span>
+								</div>
+							</div>
+
+							<div id="submit-btn-div">
+								<button type="button" class="btn btn-success form-control" id="login-btn">Log in</button>
+							</div>
+
+						</form>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 col-md-3"></div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
